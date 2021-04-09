@@ -1,0 +1,27 @@
+The program compiles on gcc compiler and does not require any other dependencies
+
+
+Sample Input/Output:
+
+Enter number of nodes: 5
+Enter number of immdediate edges: 2
+Enter the parent node of the i'th node: 
+2 3 0 5 3
+Enter immediate edges: 
+1 5
+5 4
+Schedule found :
+3 2 1 5 4 
+
+
+
+Explanation:
+
+The program first reads the number of nodes(N) and immediate edges(M). Note that M<N
+
+Then, it reads N integers such that i'th integer is the parent node of the i'th node in the graph
+
+Then, it reads the immediate edges as pairs (x,y) where there is an immediate directed edge from 
+x to y 
+
+After reading all the input the program outputs a possible schedule or indicates that no schedule exists
